@@ -11,20 +11,20 @@ namespace C_Sharp_Programming
     {
         static void Main(string[] args)
         {
-            // string input = "Hello, World!";
-            // Console.WriteLine("Hi i'am Akash" + input);
-            // Console.WriteLine("From: Gujarat");
-            // Console.WriteLine("Developer");
+            string input = "Hello, World!";
+            Console.WriteLine("Hi i'am Akash" + input);
+            Console.WriteLine("From: Gujarat");
+            Console.WriteLine("Developer");
 
-            // //Read Line Example
+            //Read Line Example
 
-            //string userName = Console.ReadLine();
+            string userName = Console.ReadLine();
 
-            // Console.WriteLine("Hello " + userName);
+            Console.WriteLine("Hello " + userName);
 
-            // //Always use place holder
+            //Always use place holder
 
-            // Console.WriteLine("Hello {0}", userName);
+            Console.WriteLine("Hello {0}", userName);
 
             // both print lastName, FirstName
             Console.WriteLine("Please Enter your First Name");

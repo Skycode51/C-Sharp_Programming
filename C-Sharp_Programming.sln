@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C-Sharp_Programming", "C-Sharp_Programming\C-Sharp_Programming.csproj", "{D138F101-E9B3-4991-A1A9-FE4B9BBF5FA1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteLine_ReadLine", "C-Sharp_Programming\WriteLine_ReadLine.csproj", "{D138F101-E9B3-4991-A1A9-FE4B9BBF5FA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Build-in_Type", "Build-in_Type\Build-in_Type.csproj", "{3CC55AF2-7646-45EA-97D6-32A9FB69DFEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D138F101-E9B3-4991-A1A9-FE4B9BBF5FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D138F101-E9B3-4991-A1A9-FE4B9BBF5FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D138F101-E9B3-4991-A1A9-FE4B9BBF5FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CC55AF2-7646-45EA-97D6-32A9FB69DFEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CC55AF2-7646-45EA-97D6-32A9FB69DFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CC55AF2-7646-45EA-97D6-32A9FB69DFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CC55AF2-7646-45EA-97D6-32A9FB69DFEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
