@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteLine_ReadLine", "C-Sha
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Build-in_Type", "Build-in_Type\Build-in_Type.csproj", "{3CC55AF2-7646-45EA-97D6-32A9FB69DFEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Common_Operator", "04_Common_Operator\04_Common_Operator.csproj", "{9E77B948-D304-44F8-BBAF-476912F65C9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_Common_Operator", "04_Common_Operator\04_Common_Operator.csproj", "{9E77B948-D304-44F8-BBAF-476912F65C9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_DataType_Conversion", "05_DataType_Conversion\05_DataType_Conversion.csproj", "{3AF25B87-5EF4-4A49-BB5F-D72794913594}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{9E77B948-D304-44F8-BBAF-476912F65C9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E77B948-D304-44F8-BBAF-476912F65C9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E77B948-D304-44F8-BBAF-476912F65C9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AF25B87-5EF4-4A49-BB5F-D72794913594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF25B87-5EF4-4A49-BB5F-D72794913594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF25B87-5EF4-4A49-BB5F-D72794913594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF25B87-5EF4-4A49-BB5F-D72794913594}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
