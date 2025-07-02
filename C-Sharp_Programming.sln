@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteLine_ReadLine", "C-Sharp_Programming\WriteLine_ReadLine.csproj", "{D138F101-E9B3-4991-A1A9-FE4B9BBF5FA1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_WriteLine_ReadLine", "C-Sharp_Programming\02_WriteLine_ReadLine.csproj", "{D138F101-E9B3-4991-A1A9-FE4B9BBF5FA1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Build-in_Type", "Build-in_Type\Build-in_Type.csproj", "{3CC55AF2-7646-45EA-97D6-32A9FB69DFEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_Build-in_Type", "Build-in_Type\03_Build-in_Type.csproj", "{3CC55AF2-7646-45EA-97D6-32A9FB69DFEF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_Common_Operator", "04_Common_Operator\04_Common_Operator.csproj", "{9E77B948-D304-44F8-BBAF-476912F65C9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_DataType_Conversion", "05_DataType_Conversion\05_DataType_Conversion.csproj", "{3AF25B87-5EF4-4A49-BB5F-D72794913594}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_DataType_Conversion", "05_DataType_Conversion\05_DataType_Conversion.csproj", "{3AF25B87-5EF4-4A49-BB5F-D72794913594}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Arrays", "06_Arrays\06_Arrays.csproj", "{FD012308-47A9-4AB7-B25A-D201975A100D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3AF25B87-5EF4-4A49-BB5F-D72794913594}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AF25B87-5EF4-4A49-BB5F-D72794913594}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AF25B87-5EF4-4A49-BB5F-D72794913594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD012308-47A9-4AB7-B25A-D201975A100D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD012308-47A9-4AB7-B25A-D201975A100D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD012308-47A9-4AB7-B25A-D201975A100D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD012308-47A9-4AB7-B25A-D201975A100D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
