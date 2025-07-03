@@ -10,9 +10,11 @@
 // Declaration and initialization of arrays can be done in various ways.
 // Arrays can be used to store different types of data, including integers, strings, and custom objects.
 // The program also includes examples of using the `Array` class methods for sorting and searching elements in an array.
+
 /* syntax of array declaration:
  type[] arrayName = new type[size];
 */  
+
 using System;
 
 class Arrays
