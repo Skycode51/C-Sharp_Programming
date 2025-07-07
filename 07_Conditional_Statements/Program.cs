@@ -152,6 +152,7 @@ using System.Globalization;
         // While Loop
         // The while loop executes as long as the specified condition is true.
         // It checks the condition before executing the loop body.
+        // Note: Don't forget to update the variable participating in condition, so the loop can end at some point
         int j = 0;
         while (j < 5)
         {
@@ -162,12 +163,30 @@ using System.Globalization;
         // Do-While Loop
         // The do-while loop is similar to the while loop, but it checks the condition after executing the loop body.
         // This means the loop body will always execute at least once.
-        int k = 0;
+        string UserDecision2 = string.Empty;
         do
         {
-            Console.WriteLine("Do-While Loop: " + k);
-            k++;
-        } while (k < 5);
+            Console.WriteLine("please enter your target? ");
+        int UserTarget = Convert.ToInt32(Console.ReadLine());
+        int start = 0;
+        
+        while (start <= UserTarget)
+        {
+            Console.WriteLine(start + " ");
+            start = start + 2;
+        }
+       
+        do
+        { 
+        Console.WriteLine("Do you want to continue - Yes or No ? ");
+
+        UserDecision2 = Console.ReadLine().ToUpper();
+        if ( UserDecision2 != "Yes" && UserDecision2 != "No")
+        {
+            Console.WriteLine("Invalid Choice, please say Yes or No");
+        }
+        } while (UserDecision2 != "Yes" && UserDecision2 != "No");
+        } while (UserDecision2 == "Yes");
 
         // ForEach Loop
         // The foreach loop is used to iterate over a collection or an array.
