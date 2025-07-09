@@ -17,9 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_Conditional_Statements",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07A_Foreach_loop", "07A_Foreach_loop\07A_Foreach_loop.csproj", "{CF86E505-D9BE-4B28-B2FE-AF36269B7462}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_Methods", "08_Methods\08_Methods.csproj", "{DC2C3C72-F62E-4BE9-99C5-2ECBCBCCB1A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_Methods", "08_Methods\08_Methods.csproj", "{DC2C3C72-F62E-4BE9-99C5-2ECBCBCCB1A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Class", "09_Class\09_Class.csproj", "{299901FC-A193-4A83-9CC4-264723F23E19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_Class", "09_Class\09_Class.csproj", "{299901FC-A193-4A83-9CC4-264723F23E19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Static_and_Instance_class", "10_Static_and_Instance_class\10_Static_and_Instance_class.csproj", "{3719564A-F5DA-42FE-97FB-4EC527966FE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{299901FC-A193-4A83-9CC4-264723F23E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{299901FC-A193-4A83-9CC4-264723F23E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{299901FC-A193-4A83-9CC4-264723F23E19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3719564A-F5DA-42FE-97FB-4EC527966FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3719564A-F5DA-42FE-97FB-4EC527966FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3719564A-F5DA-42FE-97FB-4EC527966FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3719564A-F5DA-42FE-97FB-4EC527966FE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
