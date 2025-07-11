@@ -17,6 +17,7 @@ using System;
     public string FirstName;
     public  string LastName;
      public string Email;
+ 
 
     public void PrintFullName()
     {
@@ -45,6 +46,7 @@ public class Program
           fullTimeEmployee.LastName = "Parmar";
           fullTimeEmployee.YearSalary = 50000;
           fullTimeEmployee.PrintFullName();
+       
 
           PartTimeEmployee PTE = new PartTimeEmployee();
           PTE.FirstName = "John";
