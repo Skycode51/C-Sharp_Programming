@@ -19,11 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07A_Foreach_loop", "07A_For
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08_Methods", "08_Methods\08_Methods.csproj", "{DC2C3C72-F62E-4BE9-99C5-2ECBCBCCB1A6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_Class", "09_Class\09_Class.csproj", "{299901FC-A193-4A83-9CC4-264723F23E19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09_Class_Objects", "09_Class\09_Class_Objects.csproj", "{299901FC-A193-4A83-9CC4-264723F23E19}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_Static_and_Instance_class", "10_Static_and_Instance_class\10_Static_and_Instance_class.csproj", "{3719564A-F5DA-42FE-97FB-4EC527966FE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_Inheritance", "11_Inheritance\11_Inheritance.csproj", "{7ABB6581-B111-4CD3-B573-D7C4CAD2B81B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_Inheritance", "11_Inheritance\11_Inheritance.csproj", "{7ABB6581-B111-4CD3-B573-D7C4CAD2B81B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
