@@ -40,3 +40,6 @@ class Program
         Console.WriteLine("Area = {0}", area2);
     }
 }
+ /* 
+  * Static Method: A static method belongs to the class itself rather than to any specific instance of the class. It can be called without creating an instance of the class.(means you can call it directly using the class name like Program.Show();)
+  * non-static Method: A non-static method belongs to an instance of the class. It can only be called on an instance of the class.(means you have to create an object of the class to call it like Program P = new Program(); P.Show();)
