@@ -69,14 +69,9 @@ using System;
 //}
 
 /* Static vs Instance Methods:
- * When a method declaration includes a static mpdifier, that method is said to be a static method.
- * When no static modifer is present, the method is said to be instance method
- * 
- * Static method is invoked using the class name, where as an instance method is invoked using an instance of the class.
- * 
- * The difference between instance methods and static methods is that multiple instance of a class can be created(or instantiated) and each instance has its own seprate method.
- * However, when a method is static, there are no instancees of method and you can invoke only that one definition of the static method. */
-
+ 
+  * Static Method: A static method belongs to the class itself rather than to any specific instance of the class. It can be called without creating an instance of the class.(means you can call it directly using the class name like Program.Show();)
+  * non-static Method: A non-static method belongs to an instance of the class. It can only be called on an instance of the class.(means you have to create an object of the class to call it like Program P = new Program(); P.Show();)  */
 
 /* ----- Diffrent Types of Method Parameters ----- */
 
@@ -87,8 +82,8 @@ using System;
 
 
 
- 
- class MethodParameters
+
+class MethodParameters
 {
     // Value Parameters Example
     //public static void Main()
