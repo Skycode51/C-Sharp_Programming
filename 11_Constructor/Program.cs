@@ -125,3 +125,8 @@
     }
 
  
+   /* Output:
+   * This base class
+   * This is Derived class
+   * 
+   * Explanation: When an object of the DerivedClass is created, it first calls the constructor of BaseClass, which prints "This base class", and then it executes its own constructor, printing "This is Derived class". */
