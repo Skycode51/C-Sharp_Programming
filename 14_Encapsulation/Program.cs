@@ -34,27 +34,6 @@ class Class1Encapsulation
 //Next example
 
 
-class Class2Encapsulation
-{
-    private int atmPIN; // Private field to store ATM PIN
 
-    // Public method to set the ATM PIN
-    public int getReturn()
-    {
-        return atmPIN;
-    }
-
-    // Public method to set the ATM PIN
-    public void setValue(int pin)
-    {
-        atmPIN = pin; // Set the value of the private field
-    }
-    public static void Main(string[] args)
-    {
-        Class2Encapsulation r = new Class2Encapsulation();
-        r.setValue(1234); // Set the ATM PIN using the public method
-        Console.WriteLine("ATM PIN is " + r.getReturn());
-    }
-    }
 
 
