@@ -31,7 +31,7 @@ namespace AbstractionExample
 
     //Inherites from Person class
     //Child Class
-    class Student  : Person
+    class Student : Person
     {
         public int RollNo;
         public int Fess;
@@ -39,7 +39,7 @@ namespace AbstractionExample
         // Overriding means providing a specific implementation of an abstract method defined in the base class. In this case, the Student class provides its own implementation of the DisplayInfo method, which was declared as abstract in the Person class.
         public override void DisplayInfo()
         {
-           string name = this.Firstname + " " + this.Lastname;
+            string name = this.Firstname + " " + this.Lastname;
             Console.WriteLine("student Name Is: {0}", name);
             Console.WriteLine("Student Age: {0}", this.age);
             Console.WriteLine("Student Roll No: {0}", this.RollNo);
@@ -50,12 +50,12 @@ namespace AbstractionExample
 
     class Teacher : Person
     {
-          public string qualification;
-          public int salary;
+        public string qualification;
+        public int salary;
 
         public override void DisplayInfo()
         {
-          string name = this.Firstname + " " + this.Lastname;
+            string name = this.Firstname + " " + this.Lastname;
             Console.WriteLine("Teacher Name Is: {0}", name);
             Console.WriteLine("Teacher Age: {0}", this.age);
             Console.WriteLine("Teacher Qualification: {0}", this.qualification);
@@ -67,7 +67,7 @@ namespace AbstractionExample
     //Main Method
     class Program
     {
-         static void Main(string[] args)
+        static void Main(string[] args)
         {
             //  Creating an object of the Student class
             Student Akash = new Student();
@@ -78,7 +78,7 @@ namespace AbstractionExample
             Akash.PhoneNumber = 01234567890;
             Akash.Fess = 5000;
             Akash.DisplayInfo(); // Display student information
-            Console.ReadLine();                                                  
+            Console.ReadLine();
 
             Console.WriteLine("---------------------------------");
 
@@ -95,3 +95,17 @@ namespace AbstractionExample
         }
     }
 }
+
+// Output: 
+// student Name Is: Akash Parmar
+// Student Age: 20
+// Student Roll No: 101
+// Student Fess: 5000
+// Student Phone Number: 1234567890
+// ---------------------------------
+// Teacher Name Is: Kripalsinh Zala
+// Teacher Age: 30
+// Teacher Qualification: M.Sc. in Mathematics
+// Teacher Salary: 50000
+// Teacher Phone Number: 9876543210
+
