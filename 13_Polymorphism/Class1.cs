@@ -38,3 +38,7 @@
         }
     }
 }
+ // Output:
+ // The animal makes a sound
+ // The pig says: wee wee
+ // The dog says: bow wow
